@@ -7,7 +7,7 @@ import { RiNotification3Line } from 'react-icons/ri';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import avatar from '../data/avatar.jpg';
+import avatar from '../data/avatar.jpeg';
 import {Cart, Chat, Notification, UserProfile} from '.';
 import {useStateContext} from '../contexts/ContextProvider';
 
@@ -76,7 +76,7 @@ const Navbar = () => {
         />
         <TooltipComponent
           content='Profile'
-          postion='BottomCenter'
+          position='BottomCenter'
         >
           <div 
             className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'
@@ -89,7 +89,7 @@ const Navbar = () => {
             />
             <p>
               <span className='text-gray-400 text-14'>Hi, </span> {' '}
-              <span className='text-gray-400 font-bold ml-1 text-14'>Michael</span>
+              <span className='text-gray-400 font-bold ml-1 text-14'>Diogo</span>
             </p>
             <MdKeyboardArrowDown className='text-gray-400 text-14'/>
           </div>
